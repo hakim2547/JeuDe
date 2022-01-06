@@ -1,0 +1,36 @@
+.LancerDe{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    }
+    
+    /* Shows each dice in one row */
+    .LancerDe-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
+    /* Stylling rolldice button */
+    .LancerDe button{
+    width:15em;
+    padding:1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color:white;
+    background-color:black;
+    margin-top: 3em;
+    align-self: center;
+    }
+    
+    /* Setting hover effect on button */
+    .LancerDe button:hover{
+    cursor: pointer;
+    }
+    
+    .LancerDe-rolling{
+    border: 0px;
+    border-radius: 10px;
+    background-color:darkslateblue !important;
+    opacity:0.7
+    }
+    
